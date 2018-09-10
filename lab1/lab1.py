@@ -104,7 +104,7 @@ class TitanicAnalytics(object):
 
     def solve_6_variant(self):
         """Show statistics on children"""
-        pass
+        return self._data[self._data.Age < 18]
 
     def solve_7_variant(self):
         """Estimate the average ticket price for each port"""
